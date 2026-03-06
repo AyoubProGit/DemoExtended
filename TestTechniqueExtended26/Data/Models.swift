@@ -57,8 +57,6 @@ struct Attachment: Decodable {
     let size: Int?
     let type: String?
     let thumbnails: Thumbnails?
-
-    // Les clés du JSON correspondent déjà aux noms ici (id, width, height, url, filename, size, type, thumbnails)
 }
 
 struct Thumbnails: Decodable {
