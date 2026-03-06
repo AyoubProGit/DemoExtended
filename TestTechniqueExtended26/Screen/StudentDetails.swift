@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct StudentDetails: View {
-
     var student: Student
-
     @State var showPatronus: Bool = false
 
     var body: some View {

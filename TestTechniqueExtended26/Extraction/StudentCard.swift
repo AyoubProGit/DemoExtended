@@ -23,7 +23,6 @@ struct StudentCard: View {
                 .opacity(0.3)
 
             VStack(spacing: 10) {
-                
                 if let url = student.picture?.first?.url {
                     AsyncImage(url: url) { image in
                         image
